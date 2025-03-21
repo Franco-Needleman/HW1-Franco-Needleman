@@ -101,23 +101,23 @@ void printlist(list& lista) {
 }
 
 
-// Función principal para probar la lista
+
 int main() {
-    list lista;  // Se crea una lista vacía
+    list lista;  
 
     cout << "Agregando elementos al frente...\n";
-    push_front(3, lista);  // Lista: 3
-    push_front(2, lista);  // Lista: 2 -> 3
-    push_front(1, lista);  // Lista: 1 -> 2 -> 3
+    push_front(3, lista);  
+    push_front(2, lista);  
+    push_front(1, lista);  
     printlist(lista);
 
     cout << "Agregando elementos al final...\n";
-    push_back(4, lista);   // Lista: 1 -> 2 -> 3 -> 4
-    push_back(5, lista);   // Lista: 1 -> 2 -> 3 -> 4 -> 5
+    push_back(4, lista);   
+    push_back(5, lista);  
     printlist(lista);
 
     cout << "Insertando 10 en la posición 2...\n";
-    insert(2, 10, lista);  // Lista: 1 -> 2 -> 10 -> 3 -> 4 -> 5
+    insert(2, 10, lista);  
     printlist(lista);
 
     cout << "Eliminando el elemento en la posición 100...\n";

@@ -66,7 +66,6 @@ void ejemploReal() {
     } catch (const runtime_error& e) {
         logMessage(e.what(), __FILE__, __LINE__); // Registrar el error en el log
         std::cout << "Se ha registrado un error en el log. Terminando la ejecución." << std::endl;
-      //exit(1); // Finalizar la ejecución del programa con código de error
     }
 }
 
